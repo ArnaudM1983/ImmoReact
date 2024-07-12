@@ -99,8 +99,8 @@ export const listData = [
   
   export const singlePostData = {
     id: 1,
-    title: "Beautiful Apartment",
-    price: 1200,
+    title: "Charmant Appartement avec Vue Panoramique sur la Ville",
+    price: 1000,
     images: [
       "https://images.pexels.com/photos/1918291/pexels-photo-1918291.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
       "https://images.pexels.com/photos/1428348/pexels-photo-1428348.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
@@ -110,15 +110,15 @@ export const listData = [
     bedRooms: 2,
     bathroom: 1,
     size: 861,
-    latitude: 51.5074,
-    longitude: -0.1278,
-    city: "London",
-    address: "1234 Broadway St",
+    latitude: 45.779432,
+    longitude: 4.834215,
+    city: "Lyon",
+    address: "16 rue Pailleron",
     school: "250m away",
     bus: "100m away",
     restaurant: "50m away",
     description:
-      "Future alike hill pull picture swim magic chain seed engineer nest outer raise bound easy poetry gain loud weigh me recognize farmer bare danger. actually put square leg vessels earth engine matter key cup indeed body film century shut place environment were stage vertical roof bottom lady function breeze darkness beside tin view local breathe carbon swam declared magnet escape has from pile apart route coffee storm someone hold space use ahead sheep jungle closely natural attached part top grain your grade trade corn salmon trouble new bend most teacher range anybody every seat fifteen eventually",
+      "Découvrez cet appartement exceptionnel situé au cœur du quartier historique de la Croix-Rousse, à Lyon. Parfait pour ceux qui recherchent un équilibre entre charme traditionnel et confort moderne.",
   };
   
   export const userData = {
