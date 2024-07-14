@@ -1,3 +1,5 @@
+@import "../../responsive.scss";
+
 .filter {
     display: flex;
     flex-direction: column;
@@ -36,6 +38,10 @@
         display: flex;
         justify-content: space-between;
         gap: 1rem;
+
+        @include sm{
+            flex-direction: column;
+        }
 
         button{
             width: 100px;

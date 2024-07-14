@@ -26,8 +26,8 @@ nav{
         flex: 3;
 
         .logo{
-            font-weight: bold;
-            font-size: 1.5rem;
+            font-weight: 600;
+            font-size: 1.4rem;
             display: flex;
             align-items: center;
             gap: 10px;
@@ -59,6 +59,52 @@ nav{
         a{
             padding: 1rem 2rem;
             margin: 1.3rem;
+        }
+
+        .user{
+            display: flex;
+            align-items: center;
+            font-weight: bold;
+
+            img{
+                width: 40px;
+                height: 40px;
+                border-radius: 50%;
+                object-fit: cover;
+                margin-right: 20px;
+            }
+
+            span{
+                font-weight: 600;
+                @include sm{
+                    display: none;
+                }
+            }
+
+            .profile{
+                padding: 12px 24px;
+                background-color: #fda521;
+                cursor: pointer;
+                border: none;
+                color: #fcf5f3;
+                font-weight: 600;
+                border-radius: 0.2rem;
+                position: relative;
+
+                .notification{
+                    position: absolute;
+                    top: -8px;
+                    right: -8px;
+                    background-color: red;
+                    color: #fcf5f3;
+                    border-radius: 50%;
+                    width: 26px;
+                    height: 26px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                }
+            }
         }
 
         .register{
